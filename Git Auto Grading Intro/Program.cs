@@ -15,22 +15,22 @@
         public static int Add(int a, int b)
         {
             // Code
-            return 2 + 3; 
+            return a + b; 
         }
         public static int Subtract(int a, int b)
         {
             // Code
-            return 2 - 3; 
+            return a - b; 
         }
         public static int Multiply(int a, int b)
         {
             // Code
-            return 2 * 3; 
+            return a * b; 
         }
         public static decimal Divide(int a, int b)
         {
             // Code
-            return 2 / 3; 
+            return (decimal)a / b;
         }
     }
 }
